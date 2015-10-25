@@ -1,0 +1,18 @@
+# TASK 
+
+** TODO read material 
+*** understand 1-16
+
+
+** TODO write a parser 
+
+Bitcoin transactions include scripts which allow the transactions to
+perform actions depending on inputs. Most of these scripts are very
+simple and designed to transfer funds to the owner of a private key
+hence their use in transactions. Some of these scripts are complex and
+interesting. Write a program (in python or C++) which parses the
+Bitcoin blockchain and finds interesting, non-standard scripts. You
+can use libraries and tools to perform the parsing.
+
+There already exists a tool for doing this, but we want you to write your own.
+
